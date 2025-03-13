@@ -19,7 +19,7 @@
 Add the package to your `pubspec.yaml` file:
 ```yaml
 dependencies:
-  sdpify: ^Latest_Version
+  sdpify: ^latest_Version
 ```
 
 Then, run:
