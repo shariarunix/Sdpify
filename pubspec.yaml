@@ -1,10 +1,13 @@
 name: sdpify
 description: "Sdpify - Scalable Density Pixels for Responsive UI"
-version: 0.0.1
-homepage:
+version: 1.0.0
+
+repository: https://github.com/shariarunix/Sdpify
+homepage: https://github.com/shariarunix/Sdpify
+issue_tracker: https://github.com/shariarunix/Sdpify/issues
 
 environment:
-  sdk: ^3.7.0
+  sdk: ">=3.0.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -17,4 +20,3 @@ dev_dependencies:
   flutter_lints: ^5.0.0
 
 flutter:
-
