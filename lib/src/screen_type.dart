@@ -2,27 +2,27 @@ part of '../sdpify.dart';
 
 enum ScreenType {
 
-  UNDEFINED,
+  undefined,
 
-  /// [SMALL] Defines for
+  /// [small] Defines for
   /// Small Sizes Mobile Devices
   ///
-  SMALL,
+  small,
 
-  /// [MEDIUM] Defines for
+  /// [medium] Defines for
   /// Medium Sizes Mobile Devices
   ///
-  MEDIUM,
+  medium,
 
-  /// [LARGE] Defines for
+  /// [large] Defines for
   /// Large Sizes Mobile Devices
-  LARGE,
+  large,
 
-  /// [EXTRA_LARGE] Defines for Tablets
+  /// [extraLarge] Defines for Tablets
   ///
-  EXTRA_LARGE,
+  extraLarge,
 
-  /// [ULTRA_LARGE] Defines for Desktop
+  /// [ultraLarge] Defines for Desktop
   ///
-  ULTRA_LARGE,
+  ultraLarge,
 }

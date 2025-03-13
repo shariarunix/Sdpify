@@ -9,7 +9,7 @@ class Sdpify extends StatelessWidget {
   /// [screenType] is static variable for global access
   /// It can Access like [Sdpify.screenType] this
   ///
-  static ScreenType screenType = ScreenType.MEDIUM;
+  static ScreenType screenType = ScreenType.medium;
 
   const Sdpify({super.key, required this.builder, this.isBreakPointEnabled = false,});
 

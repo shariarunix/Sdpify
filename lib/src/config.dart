@@ -13,9 +13,8 @@ class Config with WidgetsBindingObserver {
 
   BuildContext? _context;
   BoxConstraints? _constraint;
-  Orientation? _orientation;
 
-  ScreenType _screenType = ScreenType.UNDEFINED;
+  ScreenType _screenType = ScreenType.undefined;
 
   double _screenWidth = 0.0;
   double _pixelRatio = 1.0;
@@ -37,7 +36,6 @@ class Config with WidgetsBindingObserver {
   }) {
     _context = context;
     _constraint = constraint;
-    _orientation = orientation;
 
     _screenWidth =
         isBreakPointEnabled
@@ -64,7 +62,7 @@ class Config with WidgetsBindingObserver {
       _scaleFactor =
           (_screenWidth / DeviceConstant.desktopWidth) *
           DeviceConstant.desktopScale;
-      _screenType = ScreenType.ULTRA_LARGE;
+      _screenType = ScreenType.ultraLarge;
 
       /// For Tablet Devices ( >= 768)
       ///
@@ -72,7 +70,7 @@ class Config with WidgetsBindingObserver {
       _scaleFactor =
           (_screenWidth / DeviceConstant.tabletWidth) *
           DeviceConstant.tabletScale;
-      _screenType = ScreenType.EXTRA_LARGE;
+      _screenType = ScreenType.extraLarge;
 
       /// For Extra Large Mobile Device (>= 600)
       ///
@@ -80,7 +78,7 @@ class Config with WidgetsBindingObserver {
       _scaleFactor =
           (_screenWidth / DeviceConstant.extraLargeMobileWidth) *
           DeviceConstant.extraLargeMobileScale;
-      _screenType = ScreenType.LARGE;
+      _screenType = ScreenType.large;
 
       /// For Large Mobile Device ( >= 480)
       ///
@@ -88,7 +86,7 @@ class Config with WidgetsBindingObserver {
       _scaleFactor =
           (_screenWidth / DeviceConstant.largeMobileWidth) *
           DeviceConstant.largeMobileScale;
-      _screenType = ScreenType.LARGE;
+      _screenType = ScreenType.large;
 
       /// For Medium Mobile Device ( >= 375)
       ///
@@ -96,7 +94,7 @@ class Config with WidgetsBindingObserver {
       _scaleFactor =
           (_screenWidth / DeviceConstant.mobileWidth) *
           DeviceConstant.mobileScale;
-      _screenType = ScreenType.MEDIUM;
+      _screenType = ScreenType.medium;
 
       /// For Small Mobile Device ( >= 320)
       ///
@@ -104,7 +102,7 @@ class Config with WidgetsBindingObserver {
       _scaleFactor =
           (_screenWidth / DeviceConstant.smallMobileWidth) *
           DeviceConstant.smallMobileScale;
-      _screenType = ScreenType.SMALL;
+      _screenType = ScreenType.small;
     }
   }
 
