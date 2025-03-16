@@ -11,7 +11,11 @@ class Sdpify extends StatelessWidget {
   ///
   static ScreenType screenType = ScreenType.medium;
 
-  const Sdpify({super.key, required this.builder, this.isBreakPointEnabled = false,});
+  const Sdpify({
+    super.key,
+    required this.builder,
+    this.isBreakPointEnabled = true,
+  });
 
   final SdpifyBuilder builder;
   final bool isBreakPointEnabled;

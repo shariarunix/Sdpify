@@ -8,10 +8,10 @@
 ---
 
 ## 🚀 Features
-✔ **Simple `.sdp` extension for easy usage**  
-✔ **Automatically updates on screen size changes & rotation**  
-✔ **Works seamlessly on Android, iOS**  
-✔ **No more hardcoded pixel values - true scalability!**
+- **Simple `.sdp` extension for easy usage**  
+- **Automatically updates on screen size changes & rotation**  
+- **Works seamlessly on Android, iOS, Web, Desktop**  
+- **No more hardcoded pixel values - true scalability!**
 
 ---
 
@@ -19,7 +19,7 @@
 Add the package to your `pubspec.yaml` file:
 ```yaml
 dependencies:
-  sdpify: ^latest_Version
+  sdpify: ^latest_version
 ```
 
 Then, run:
@@ -68,7 +68,9 @@ Text(
 
 ## 📖 API Reference
 ### `double.sdp`
-Converts a pixel value to scalable dp.
+### `int.sdp`
+### `num.sdp`
+Converts a logical pixel value to scalable dp.
 
 ### `Sdpify`
 A wrapper widget that automatically adjusts scaling based on screen size and orientation.

@@ -1,7 +1,6 @@
 part of '../sdpify.dart';
 
 enum ScreenType {
-
   undefined,
 
   /// [small] Defines for

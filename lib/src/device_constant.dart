@@ -1,6 +1,6 @@
 part of '../sdpify.dart';
 
-class DeviceConstant{
+class DeviceConstant {
   DeviceConstant._();
 
   static const double smallMobileWidth = 320.0;
