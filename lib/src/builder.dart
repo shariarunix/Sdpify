@@ -5,6 +5,10 @@ part of '../sdpify.dart';
 ///
 typedef SdpifyBuilder = Widget Function(BuildContext);
 
+/// [Sdpify] is the main entrypoint of this package
+/// [Sdpify] takes [SdpifyBuilder] method in constructor parameter
+/// which returns a [Widget] also takes [isBreakPointEnabled] bool value
+///
 class Sdpify extends StatelessWidget {
   /// [screenType] is static variable for global access
   /// It can Access like [Sdpify.screenType] this

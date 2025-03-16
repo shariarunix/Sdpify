@@ -1,6 +1,11 @@
 part of '../sdpify.dart';
 
+/// [ScreenType] is an enum class which contains type of the device screens
+///
 enum ScreenType {
+  /// [undefined] Defines
+  /// when [Config] struggles to retrieve device [ScreenType]
+  ///
   undefined,
 
   /// [small] Defines for
