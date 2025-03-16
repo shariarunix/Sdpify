@@ -1,6 +1,6 @@
 name: sdpify
 description: "Sdpify is a lightweight package that provides Scalable Density Pixels (SDP) to ensure a consistent UI across different screen sizes and densities. It dynamically converts pixel-based values (px) into scalable dp (sdp), making your app adaptive and responsive on all devices."
-version: 1.0.1
+version: 1.0.2
 
 repository: https://github.com/shariarunix/Sdpify
 homepage: https://github.com/shariarunix/Sdpify
